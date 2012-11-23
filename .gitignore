@@ -1,0 +1,18 @@
+target
+work
+
+# eclipse files
+.settings
+#.project
+#.classpath
+bin
+
+#Intellij IDEA files
+*.iml
+*.ipr
+*.iws
+.idea
+
+.gradle
+/build
+/out
