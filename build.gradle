@@ -39,6 +39,17 @@ configurations {
 }
 */
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}
+
 //Actual project dependencies
 dependencies {
         //compile "group:artefact:version", "etc."
